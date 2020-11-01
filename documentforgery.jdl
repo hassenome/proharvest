@@ -1,0 +1,39 @@
+
+
+
+entity DocumentType {
+	name String required,
+    reference String
+
+}
+
+entity DocumentFile {
+	name String required,
+    created Instant required,
+    modified Instant
+    
+}
+
+entity DocumentConfig {	
+    fileType String required,
+	name String required,    
+    prefix String,
+    suffix String,
+    language Language
+}
+
+enum Language {
+    FRENCH, ENGLISH, SPANISH
+}
+
+relationship OneToMany {
+	DocumentConfig{documentType} to DocumentType
+}
+
+relationship OneToMany {
+	DocumentFile{documentConfig} to DocumentConfig
+}
+
+// Set pagination options
+paginate DocumentType, DocumentConfig with infinite-scroll
+paginate DocumentFile with pagination

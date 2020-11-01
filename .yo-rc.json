@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.ec.proharvest",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.4",
+    "applicationType": "monolith",
+    "baseName": "proharvest",
+    "packageName": "com.ec.proharvest",
+    "packageFolder": "com/ec/proharvest",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Mzc1MDlmMjZjNTRiNjI1ODllYTQ3YTFlZjk0OTU0MWM0YTllY2JkMTU1YTVkNDdhM2JhYWYxM2QxNWYwOTBhMjBlOWExMDAxZTQ0ZDIwZTQ4ZGE0MzdlMmFjMWM2YWE4MjRhMWYwNDdhZmM4NDMxM2RkZjAxYmY2NDg5NTA2N2E=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "united",
+    "clientThemeVariant": "primary",
+    "creationTimestamp": 1604253740475,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "fr"],
+    "blueprints": []
+  }
+}
